@@ -1004,8 +1004,8 @@ GameObject:
   - component: {fileID: 742992099}
   - component: {fileID: 742992100}
   m_Layer: 0
-  m_Name: Type1
-  m_TagString: Untagged
+  m_Name: Type2
+  m_TagString: ai
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1148,6 +1148,8 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  player: {fileID: 0}
+  randomWaypoints: 0
 --- !u!114 &742992097
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1209,6 +1211,7 @@ MonoBehaviour:
   numberOfMagazine: 5
   timer: 0
   prefab: {fileID: 0}
+  canRefillAmmo: 0
 --- !u!1 &755753118
 GameObject:
   m_ObjectHideFlags: 0

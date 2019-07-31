@@ -14,6 +14,10 @@ public class DetectionComponent : MonoBehaviour {
     [SerializeField]
     private float smellMinDistance;
 
+    void Start() {
+        player = GameObject.FindGameObjectWithTag("player");
+    }
+
     public bool Sight() {
         Ray ray = new Ray {
             origin = transform.position + Vector3.up
